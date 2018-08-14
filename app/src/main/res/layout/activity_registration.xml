@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7efd2"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/Registration"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/registration"
+        android:layout_centerHorizontal="true"/>
+
+
+    <EditText
+        android:id="@+id/Enterusername"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/Registration"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#b9b9b5"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/username"
+        android:inputType="textNoSuggestions" />
+
+
+
+    <EditText
+        android:id="@+id/EnterIDno"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/Enterusername"
+        android:background="#b9b9b5"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/id_no"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/Enteremail"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/EnterIDno"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#b9b9b5"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/Entertellephone"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#b9b9b5"
+        android:layout_below="@+id/Enteremail"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/phone_no"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/Selectcategory"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/Entertellephone"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="6dp"
+        android:background="#b9b9b5"
+        android:textSize="18sp"
+        android:hint="@string/user_category"
+        />
+
+
+    <EditText
+        android:id="@+id/Enterpassword"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/Selectcategory"
+        android:background="#b9b9b5"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/Confirmpassword"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/Enterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#b9b9b5"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Confirmpassword"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit"/>
+    <ProgressBar
+        android:id="@+id/Progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Spinner
+        android:id="@+id/Usercategory"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/Selectcategory"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Entertellephone"
+        android:layout_marginLeft="194dp"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="6dp"
+        android:background="#b9b9b5"
+        android:entries="@array/Usercategory" />
+</RelativeLayout>

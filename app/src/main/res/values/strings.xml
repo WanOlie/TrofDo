@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TrOfDo</string>
+    <string name="registration">Registration</string>
+    <string name="username">Username</string>
+    <string name="id_no">ID No</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone No</string>
+    <string name="user_category">User Category ></string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="previous_reports">Previous Reports</string>
+    <string name="brief_description">Brief Description</string>
+    <string name="report">Report</string>
+    <string name="log_out">Log out</string>
+    <string name="submit">Submit</string>
+    <string name="reported_offences">Reported Offences</string>
+    <string name="driver_history">Driver History</string>
+    <string name="image_video">image/video</string>
+    <array name="Usercategory">
+        <item>Public</item>
+        <item>Driver</item>
+        <item>Police</item>
+        <item>Executive</item>
+    </array>
+</resources>

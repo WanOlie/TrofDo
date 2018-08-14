@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "608685987869",
+    "firebase_url": "https://trofdo-b0f43.firebaseio.com",
+    "project_id": "trofdo-b0f43",
+    "storage_bucket": "trofdo-b0f43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608685987869:android:e5aa3b5926dd3a9f",
+        "android_client_info": {
+          "package_name": "com.example.user.trofdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608685987869-uj7s7rmiqijngfii71flf63rtkls1l3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.trofdo",
+            "certificate_hash": "c03913e260200e2bfddb9050e94af6bab2b763c5"
+          }
+        },
+        {
+          "client_id": "608685987869-gpd91ktghq292bjuccsi883r3pb1vkeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCAHIjvYXQEBLCZCnlCBkan2sLKwu4KDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608685987869-gpd91ktghq292bjuccsi883r3pb1vkeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
